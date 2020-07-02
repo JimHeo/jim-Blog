@@ -262,7 +262,7 @@ reward_settings:
   #comment: Donate comment here.
 
 reward:
-  kakaopay: /images/kakao_donation.png
+  kakaopay: /images/kakaopay_donation.png
   #wechatpay: /images/wechatpay.png
   #alipay: /images/alipay.png
   #paypal: /images/paypal.png
