@@ -101,7 +101,7 @@ theme: next
 deploy:
   type: git
   repo: https://github.com/JimHeo/jimheo.github.io.git
-  branch: gh-pages
+  branch: master
 
 emoji:
   enable: true
