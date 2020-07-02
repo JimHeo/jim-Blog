@@ -344,7 +344,7 @@ mobile_layout_economy: true
 android_chrome_color: "#047862"
 
 # Custom Logo (Do not support scheme Mist)
-custom_logo: #/images/lubycon-logo-ha-brand-theme.svg
+custom_logo: /images/lubycon-logo-ha-light.svg
 
 codeblock:
   # Code Highlight theme
@@ -441,8 +441,8 @@ font:
 
   # Font settings for <code> and code blocks.
   codes:
-    external: true
-    family: Source Code Pro
+    external: false
+    family: 
 
 
 # ---------------------------------------------------------------

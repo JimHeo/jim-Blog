@@ -108,3 +108,7 @@ emoji:
   className: github-emoji
   styles:
   customEmojis:
+
+feed:
+  type: atom
+  path: atom.xml
