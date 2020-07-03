@@ -97,7 +97,7 @@ creative_commons:
 scheme: Gemini
 
 # Dark Mode
-darkmode: true
+darkmode: false
 
 
 # ---------------------------------------------------------------
@@ -441,8 +441,8 @@ font:
 
   # Font settings for <code> and code blocks.
   codes:
-    external: false
-    family: 
+    external: true
+    family: DM Mono
 
 
 # ---------------------------------------------------------------
@@ -994,3 +994,19 @@ vendors:
 css: css
 js: js
 images: images
+
+next_nightmode:
+  enable: true
+  # FontAwesome or ForkAwesome icon in sidebar button.
+  icon: fas fa-adjust
+  # Text for sidebar button.
+  text: Dark Mode
+  # If true, when you disable Night Mode, Hexo will show warning messages in your console.
+  reminder: false
+  # Debugger for alpha option below.
+  debugger: false
+  # Support experimental prefers-color-scheme media query.
+  # For now if alpha mode enabled, sidebar button will be disabled.
+  # The only way to toggle night mode is changing your device scheme.
+  # Also see: https://caniuse.com/#feat=prefers-color-scheme.
+  alpha: false

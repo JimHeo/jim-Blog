@@ -23,20 +23,13 @@
         <img class="custom-logo-image" src="{{ theme.custom_logo }}" alt="{{ title }}" onclick="toggleImg()">
       </a>
       <script>
-        var darkmode_flag = false;
         function toggleImg() {
           const src = document.getElementsByClassName("custom-logo-image")[0].src;
           if(src.includes("lubycon-logo-ha-brand-theme.svg")){
-            if(darkmode_flag === false){
               document.getElementsByClassName("custom-logo-image")[0].src = "/images/lubycon-logo-ha-light.svg";
-              darkmode_flag = true;
-            }
           }
           else{
-            if(darkmode_flag === true){
               document.getElementsByClassName("custom-logo-image")[0].src = "/images/lubycon-logo-ha-brand-theme.svg";
-              darkmode_flag = false;
-            }
           }
         }
       </script>
