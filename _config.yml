@@ -117,3 +117,15 @@ sitemap:
   path: sitemap.xml
   tag: true
   category: true
+
+nofollow:
+  enable: true
+  exclude:
+  - exclude1.com
+  - exclude2.com
+
+robotstxt:
+  useragent: "*"
+  allow:
+    - /
+  sitemap: https://jimheo.github.io/sitemap.xml
