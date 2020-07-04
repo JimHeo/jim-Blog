@@ -112,3 +112,8 @@ emoji:
 feed:
   type: atom
   path: atom.xml
+
+sitemap:
+  path: sitemap.xml
+  tag: true
+  category: true
