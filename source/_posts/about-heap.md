@@ -21,9 +21,9 @@ Tree의 정의는 다음 2가지를 따른다.
 
 </br>
 
-$1. \ A \ root \ node$
-
-$2. \ The \ remaining \ nodes \ are \ partitioned \ into \ n(n \geq 0) \ disjoint \ sets \ T_1, T_2, ... , T_n (T_i : subtrees \ of \ the \ root)$
+> **1. A root node**
+>
+> **2. The remaining nodes are partitioned into $n(n \geq 0)$ disjoint sets $T_1, T_2, ... , T_n$ ($T_i$ : subtrees of the root)**
 
 </br>
 
