@@ -3,12 +3,11 @@ title: 마스크와 가치관의 상관관계
 date: 2020-07-03 00:38:28
 tags: 
     - Damian
-    - 가치관
-    - 코로나
     - COVID19
     - Essay
+    - Values
 categories:
-    - 수필
+    - Essay
 author: Damian
 reward_settings:
   enable: true
