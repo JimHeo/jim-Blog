@@ -110,8 +110,13 @@ emoji:
   customEmojis:
 
 feed:
-  type: atom
-  path: atom.xml
+  type: 
+    - atom
+    - rss2
+  
+  path: 
+    - atom.xml
+    - rss2.xml
 
 sitemap:
   path: sitemap.xml
@@ -121,8 +126,8 @@ sitemap:
 nofollow:
   enable: true
   exclude:
-  - exclude1.com
-  - exclude2.com
+    - exclude1.com
+    - exclude2.com
 
 robotstxt:
   useragent: "*"
