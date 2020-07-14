@@ -115,7 +115,7 @@ menu:
   Categories: /categories/ || fas fa-terminal
   Tags: /tags/ || fab fa-slack-hash
   About: /about/ || fas fa-dna
-  Lubycon: https://lubycon.github.io || fas fa-share-alt-square
+  Lubycon: https://lubycon.github.io || icon-lubycon-symbol-dark
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
