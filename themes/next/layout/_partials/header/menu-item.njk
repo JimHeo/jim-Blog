@@ -13,7 +13,6 @@
       {%- else %}
         {%- set menuIcon = '<i class="' + value.split('||')[1] | trim + ' fa-fw"></i>' %}
       {%- endif %}
-      <script> console.log('{{name}} out'); </script>
     {%- endif %}
     {%- set menuText = __('menu.' + name) | replace('menu.', '') %}
 
