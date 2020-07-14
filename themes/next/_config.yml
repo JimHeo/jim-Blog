@@ -580,7 +580,7 @@ comments:
 # Disqus
 disqus:
   enable: true
-  shortname: jimheo.github.io
+  shortname: jiminthebox
   count: true
   #post_meta_order: 0
 
@@ -998,7 +998,7 @@ images: images
 next_nightmode:
   enable: true
   # FontAwesome or ForkAwesome icon in sidebar button.
-  icon: fas fa-adjust
+  icon: adjust
   # Text for sidebar button.
   text: Dark Mode
   # If true, when you disable Night Mode, Hexo will show warning messages in your console.
