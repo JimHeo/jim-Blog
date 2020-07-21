@@ -69,6 +69,20 @@
       });
       btn.addEventListener('click', () => {
         d.documentElement.classList.toggle('darkScheme');
+
+        var disqus_config = function() {
+          this.page.url = {{ page.permalink | json }};
+          this.page.identifier = {{ page.path | json }};
+          this.page.title = {{ page.title | json }};
+          {% if __('disqus') !== 'disqus' -%}
+          this.language = '{{ __('disqus') }}';
+          {% endif -%}
+        };
+        w.DISQUS.reset({
+          reload: true,
+          config: disqus_config
+        });
+
         if ( d.documentElement.classList.contains('darkScheme') ) {
           localStorage.setItem('Scheme', 'Dark');
           return;
