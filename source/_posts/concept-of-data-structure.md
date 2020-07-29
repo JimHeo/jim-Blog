@@ -6,6 +6,7 @@ tags:
     - OOP Programming
 categories:
     - Programming
+author: Jim
 ---
 
 ### 자료구조란?

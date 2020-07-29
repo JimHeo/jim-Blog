@@ -8,6 +8,7 @@ tags:
     - Backpropagation
 categories:
     - Deep Learning
+author: Jim
 mathjax: true
 ---
 

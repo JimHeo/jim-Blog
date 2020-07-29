@@ -5,7 +5,8 @@ tags:
     - Logistic Regression
     - Gradient Descent
 categories:
-    - Deep Learning 
+    - Deep Learning
+author: Jim 
 mathjax: true
 ---
 
