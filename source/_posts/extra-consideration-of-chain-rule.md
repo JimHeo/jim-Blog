@@ -1,5 +1,5 @@
 ---
-title: Chain Rule에 대한 추가적인 고찰 (by Jim)
+title: Chain Rule에 대한 추가적인 고찰
 date: 2018-10-10 17:54:42
 tags:
     - Computational Graph

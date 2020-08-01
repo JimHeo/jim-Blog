@@ -1,5 +1,5 @@
 ---
-title: Machine Learning study 1주차 (by Jim)
+title: Machine Learning study 1주차
 date: 2018-10-10 14:46:13
 tags:
     - Logistic Regression

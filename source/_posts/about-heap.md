@@ -1,5 +1,5 @@
 ---
-title: 힙(Heap)이란 무엇인가? (by Jim)
+title: 자료구조, 힙(Heap)
 date: 2018-10-12 17:10:13
 tags:
     - Data Structure

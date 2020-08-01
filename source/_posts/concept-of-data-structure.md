@@ -1,5 +1,5 @@
 ---
-title: Concept of Data Structure (by Jim)
+title: Concept of Data Structure
 date: 2018-10-12 12:52:35
 tags:
     - Data Structure

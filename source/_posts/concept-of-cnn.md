@@ -1,5 +1,5 @@
 ---
-title: Convolution Neural Network의 개념 (by Jim)
+title: Convolution Neural Network의 개념
 date: 2018-10-10 17:55:40
 tags:
     - Convolution Neural Network
