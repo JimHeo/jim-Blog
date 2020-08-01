@@ -13,9 +13,9 @@ mathjax: true
 
 #### Complete Binary Tree
 
-Tree에 대한 기본적인 설명은 루비콘 팀 블로그에 있는 Martin Kim의 글을 참조한다. :bow:
+Tree에 대한 기본적인 설명은 루비콘 팀 Martin Kim의 포스트를 참조한다. :bow:
 
-##### Ref: <https://lubycon.github.io/2018/10/05/data-structure-tree/>
+##### Ref: <https://blog.martinwork.co.kr/theory/2018/09/22/what-is-tree.html>
 
 추가적으로 Tree에 대해 부가설명을 덧붙인다.
 Tree의 정의는 다음 2가지를 따른다.

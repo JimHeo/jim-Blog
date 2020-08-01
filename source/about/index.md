@@ -12,8 +12,8 @@ type: about
 제 블로그를 찾아 주신 분들, 그리고 그 중에서 About 페이지를 찾아서 들어와 주신 분들께 정말로 감사드립니다. :bow:
 
 석사 학위를 따기 위해 대학원생의 신분으로 있으며, 영상처리 및 컴퓨터비전에 대한 딥러닝을 주로 공부하고 있습니다.
-또한, 프로젝트 팀 **[Lubycon](https://lubycon.github.io/)**의 멤버로 있습니다.
-(Lubycon에서 [멘토링 프로젝트](https://lubycon.github.io/magazines/2020/06/09/1st-demo-day/)나 [칫챗](https://lubycon.github.io/magazines/2019/11/18/1st-chit-chat-retrospective/) 등을 종종 기획하고 있으니 많은 관심 부탁드립니다.)
+또한, 프로젝트 팀 **[Lubycon](https://lubycon.io/)**의 멤버로 있습니다.
+(Lubycon에서 [멘토링 프로젝트](https://lubycon.io/magazines/2020/06/09/1st-demo-day/)나 [칫챗](https://lubycon.io/magazines/2019/11/18/1st-chit-chat-retrospective/) 등을 종종 기획하고 있으니 많은 관심 부탁드립니다.)
 블로깅을 자주 하고 있지는 않지만, 항상 업로드를 하고자 하는 의지는 가지고 있습니다. :sweat_smile:
 
 이 블로그는 주로 IT기술이나 관련 지식을 정리한 기술 블로그로 운영을 하고 있지만, 간혹 제 생각이 담긴 수필도 올릴 생각입니다.
