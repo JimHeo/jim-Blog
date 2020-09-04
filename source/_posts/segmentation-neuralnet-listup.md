@@ -29,13 +29,13 @@ MICCAI 2015
 
 - Official Model: <https://lmb.informatik.uni-freiburg.de/resources/opensource/unet/>
   - Framework: Caffe
-- Reference Model: <https://github.com/jakeret/tf_unet>
+- Reproduce Model: <https://github.com/jakeret/tf_unet>
   - Framework: Tensorflow
   - Paper: <https://arxiv.org/pdf/1609.09077.pdf> in Astronomy and Computing 2017
   - Documentation: <https://tf-unet.readthedocs.io/en/latest/installation.html>
-- Reference Model: <https://github.com/zhixuhao/unet>
+- Reproduce Model: <https://github.com/zhixuhao/unet>
   - Framework: Keras
-- Reference Model: <https://github.com/milesial/Pytorch-UNet>
+- Reproduce Model: <https://github.com/milesial/Pytorch-UNet>
   - Framework: PyTorch
 
 <!--more-->
@@ -43,17 +43,17 @@ MICCAI 2015
 #### Train Model Code, Test Model Code
 
 - Train Model Code
-  - Reference Model(Tensorflow) Supports API
+  - Reproduce Model(Tensorflow) Supports API
     - <https://tf-unet.readthedocs.io/en/latest/usage.html>
-  - Reference Model(Keras)
+  - Reproduce Model(Keras)
     - <https://github.com/zhixuhao/unet/blob/master/trainUnet.ipynb>
 - Test Model Code:
-  - Reference Model(Tensorflow) Supports API
+  - Reproduce Model(Tensorflow) Supports API
     - <https://tf-unet.readthedocs.io/en/latest/usage.html>
-  - Reference Model(Keras)
+  - Reproduce Model(Keras)
     - <https://github.com/zhixuhao/unet/blob/master/trainUnet.ipynb>
 
-**REMARK** Reference Model(Keras) supports data augmentation docs
+**REMARK** Reproduce Model(Keras) supports data augmentation docs
 
 - <https://github.com/zhixuhao/unet/blob/master/dataPrepare.ipynb>
 
@@ -99,12 +99,12 @@ CVPR 2017
 
 - Official Model: <https://github.com/guosheng/refinenet>
   - Framework: MATLAB
-- Reference Model: <https://github.com/DrSleep/refinenet-pytorch>
+- Reproduce Model: <https://github.com/DrSleep/refinenet-pytorch>
   - Framework: PyTorch
-- Reference Model: <https://github.com/DrSleep/light-weight-refinenet>
+- Reproduce Model: <https://github.com/DrSleep/light-weight-refinenet>
   - Light Weight RefineNet
   - Framework: PyTorch
-- Reference Model: <https://github.com/eragonruan/refinenet-image-segmentation>
+- Reproduce Model: <https://github.com/eragonruan/refinenet-image-segmentation>
   - Framework: Tensorflow
 
 #### Train Model Code, Test Model Code
@@ -160,16 +160,16 @@ CVPR 2017, The Winner in 2016 ILSVRC Scene Parsing Challenge
 
 - Official Model: <https://github.com/hszhao/PSPNet>
   - Framework: Caffe
-- Reference Model: <https://github.com/Vladkryvoruchko/PSPNet-Keras-tensorflow>
+- Reproduce Model: <https://github.com/Vladkryvoruchko/PSPNet-Keras-tensorflow>
   - Framework: Keras
-- Reference Model: <https://github.com/hellochick/PSPNet-tensorflow>
+- Reproduce Model: <https://github.com/hellochick/PSPNet-tensorflow>
   - Framework: Tensorflow
 
 #### Train Model Code, Test Model Code
 
-- Train Model Code: Supported in Reference Model
+- Train Model Code: Supported in Reproduce Model
   - <https://github.com/Vladkryvoruchko/PSPNet-Keras-tensorflow>
-- Test Model Code: Supported in Reference Model
+- Test Model Code: Supported in Reproduce Model
   - <https://github.com/Vladkryvoruchko/PSPNet-Keras-tensorflow>
 
 #### Pre-Trained Model
@@ -178,7 +178,7 @@ CVPR 2017, The Winner in 2016 ILSVRC Scene Parsing Challenge
   - Offical Model
     - <https://github.com/hszhao/PSPNet>
 - Supported
-  - Reference Model
+  - Reproduce Model
     - <https://github.com/Vladkryvoruchko/PSPNet-Keras-tensorflow>
 
 #### Prediction Examples
