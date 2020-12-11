@@ -2,14 +2,14 @@
 title: 번아웃 극복을 위한 복기
 date: 2020-07-14 16:18:39
 tags:
-    - Damian
+    - Demian
     - Essay
     - Retrospective
     - Burnout
     - Overcome
 categories:
     - Essay
-author: Damian
+author: Demian
 reward_settings:
   enable: true
 ---
