@@ -996,7 +996,7 @@ js: js
 images: images
 
 next_nightmode:
-  enable: true
+  enable: false
   # FontAwesome or ForkAwesome icon in sidebar button.
   icon: adjust
   # Text for sidebar button.
