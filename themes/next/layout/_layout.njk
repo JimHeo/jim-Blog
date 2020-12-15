@@ -62,11 +62,9 @@
     'use strict';
     {%- if not config.next_nightmode.alpha and not theme.next_nightmode.alpha %}
       let userScheme = localStorage.getItem('Scheme');
-      if (userScheme) d.documentElement.className = 'darkScheme';
+      if (userScheme) d.documentElement.className += ' darkScheme';
       const btn = d.querySelector('.night-mode');
-      w.addEventListener('keydown', e => {
-        if (e.altKey && e.keyCode == 88) btn.click();
-      });
+
       btn.addEventListener('click', () => {
         d.documentElement.classList.toggle('darkScheme');
 
@@ -91,7 +89,8 @@
       });
     {%- endif %}
   })(window, document);
-  </script>
+</script>
+
 
 
   <script id="dsq-count-scr" src="//jiminthebox.disqus.com/count.js" async></script>
