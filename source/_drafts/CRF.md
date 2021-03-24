@@ -37,3 +37,8 @@ Pairwise Markov Network - 인접하지 않은 두 변수는 조건부 독립
 
 **Conditional Random Fields:** Markov Random Fields에서 파생된 방법론 형태는 비슷하나 목적이 다름, Task 예측(입력변수로부터 출력변수를 구하는 등), 각 변수에 대한 Partition Function
 입력 변수 간의 관련성은 고려하지 않음
+
+$P(H)$: 사전 확률(prior), 어떤 사건이 발생했다는 주장에 관한 신뢰도
+$P(H|E)$: 사후 확률(posterior), 새로운 정보를 받은 후 갱신된 신뢰도, E를 확인했을 때, H일 확률 -> 픽셀값이 120일때 클래스가 건물일 확률
+Hypothesis Evidence
+Naive: 각각의 특징이 독립적으로 작동한다. (키, 몸무게 특성은 별개)
