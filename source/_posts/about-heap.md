@@ -11,11 +11,11 @@ author: Jim
 mathjax: true
 ---
 
-#### Complete Binary Tree
+## Complete Binary Tree
 
 Tree에 대한 기본적인 설명은 루비콘 팀 Martin Kim의 포스트를 참조한다. :bow:
 
-##### Ref: <https://blog.martinwork.co.kr/theory/2018/09/22/what-is-tree.html>
+**Ref: <https://blog.martinwork.co.kr/theory/2018/09/22/what-is-tree.html>**
 
 추가적으로 Tree에 대해 부가설명을 덧붙인다.
 Tree의 정의는 다음 2가지를 따른다.
@@ -40,7 +40,7 @@ Complete Binary Tree는 마지막 레벨을 제외하고 모든 레벨이 채워
 
 배열로 구현 시, $i$번째 노드의 자식 노드는 각각 $2i,\ 2i + 1$이 되며, 부모 노드는 존재 시 $\lfloor i / 2\rfloor$가 된다. (부모 노드의 인덱스가 $0$부터 시작할 경우에는 자식은  $2i + 1,\ 2i + 2$, 부모는 $\lfloor(i - 1) / 2\rfloor$가 된다.)
 
-#### Heap의 정의와 연산
+## Heap의 정의와 연산
 
 사전적 의미에서 Heap은 `무엇인가를 차곡차곡 쌓아올린 더미`를 뜻한다.
 Heap은 메모리에서 동적할당을 받을 때, 정렬을 할 때, 그리고 우선순위 큐(Priority Queue)나 무손실 압축 알고리즘인 허프만 코드 등에 다양하게 사용된다.

@@ -13,7 +13,7 @@ mathjax: true
 ---
 
 
-### Chain Rule
+## Chain Rule
 
 `Deep Neural Network`에서는 Feed Forward를 하여 나온 값과 기존의 정답 레이블 사이의 에러율을 줄이기 위한 가장 기본적인 방법으로 Gradient Descent 알고리즘을 사용한다.
 `Gradient Descent` 알고리즘은 이를 위해서 Back Propagation을 하면서 최적의 가중치를 구하도록 한다.
@@ -23,7 +23,7 @@ mathjax: true
 다시 말해, 가장 처음의 입력에 대한 가중치를 업데이트 해야 하는데 이 가중치의 편미분값을 구하기가 어렵다는 것이다.
 이때 도입되는 개념이 `Chain Rule`이다. 정확히는 도입이 되었다기 보다는 수학적인 측면에서 보았을 때, 편미분에 당연하게 사용되는 것이다.
 
-#### 초심자의 입장
+### 초심자의 입장
 
 딥러닝을 처음 접하는 혹은 수학에 대하여 큰 지식이 있지 않은 사람의 입장에서 Chain Rule은 그리 간단하지는 않다.
 개념에 대해 이해를 하고 난 후라도 Multi-Layer에 대해 직접 Chain Rule을 적용한다면 굉장히 헷갈리기 시작한다.

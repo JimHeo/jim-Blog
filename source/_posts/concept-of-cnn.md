@@ -13,7 +13,7 @@ mathjax: true
 ---
 
 
-#### Multi Layer Perceptron의 문제점
+## Multi Layer Perceptron의 문제점
 
 해를 거듭할 수록, 정형의 데이터보다는 비정형 데이터가 늘어나는 추세다. 비정형의 데이터를 기존의 MLP로 처리하는 것은 몇가지 단점이 존재한다.
 이미지를 예로 들어보자. 이미지는 픽셀단위로 이루어진 행렬이며, 일반적인 이미지의 해상도는 최소 64x64부터 시작하는 경우가 많다.
@@ -21,7 +21,7 @@ Grayscale이 아닌 경우에는 채널값을 추가적으로 고려해야 한�
 이에 따라, 기존의 MLP에서 Neural Net의 크기는 더 커지게 되며, 학습시간이 굉장히 늘어난다는 단점이 있다. 또한, 이미지의 회전이나 크기 확장 및 축소, 이동과 같은 변환이 일어날 때, 이에 대한 새로운 학습이 필요하다.
 그렇기 때문에, 비정형 데이터는 각각의 특성을 고려한 발전된 Neural Net이 필요하다. 비정형 데이터를 효과적으로 학습하기 위해 등장한 것이 CNN, RNN이다. CNN은 이미지에 특화된 Neural Net이며, RNN은 음성이나 자연어와 같은 Sequential한 모델에 특화된 Neural Net이다.
 
-#### Convolution Neural Network의 등장
+## Convolution Neural Network의 등장
 
 <center>
 <img src="https://t1.daumcdn.net/cfile/tistory/276FC94357AB43B00D">
@@ -40,7 +40,7 @@ CNN의 위의 연구에서 부터 시작한다.
 위 그림은 CNN의 일반적인 구조를 시각화한 것이다. CNN은 여러층의 Convolution Layer, Activation Fuction (ReLU 혹은 그와 유사한)이 먼저 구성되며, Pooling Layer를 통해 이미지를 Sampling하게 된다. 이 층들이 몇 번 반복된 후에는 Fully-Connected Layer로 이동 하는데 Fully-Connected Layer는 우리가 앞서 보았던 MLP와 동일하다. Fully-Connected에서는 최종적으로 확률이 결과물로 나와야 하므로 Softmax를 사용한다.
 Convolution Layer는 영상처리분야에서 필수 요소로 작용하는 Convolution을 기반으로 한 Layer이다. Convolution은 신호처리에서 먼저 등장한 개념이지만, 영상처리에서 이산적인 Convolution 연산을 통해 우리가 카메라 어플 등에서 흔히 보는 Filtering 부터 Edge Detection 등의 작업을 수행할 수 있다.
 
-#### 이미지의 Convolution
+## 이미지의 Convolution
 
 **`Convolution`**, 한글로 번역하면 합성곱이라는 뜻이다. Convolution 연산은 연산을 하고자 하는 픽셀의 주변 픽셀들이 출력에 영향을 미치는 것이다. 다시 말하면, 픽셀 자신과 주변 픽셀들의 Weighted Sum이다.
 
@@ -62,7 +62,7 @@ $$h[i, j] = f[i, j] * g[i, j] = \sum_{k=1}^n \sum_{l=1}^m f[k, l] g[i - k, j - l
 이렇게 Convolution을 거쳐 나온 결과물을 Channel이라 한다. 즉, 1개의 필터 당 1개의 채널이 생성되며, 최종 결과물은 각각 다른 가중치의 여러개의 필터로 여러 채널을 생성하여 결과물을 두껍게 만든다. 이렇게 최종적으로 생성된 것을 Activation Map이라 부른다.
 이 과정까지가 Convolution Layer 층에서 하는 역할이며, 그 후 ReLU 등의 Activation Fuction을 거친다. 여러개의 Convolution Layer를 구성하여 이 과정들을 반복한다.
 
-#### Pooling Layer
+## Pooling Layer
 
 여러 번의 Convoltion Layer를 거치는 중간중간에 Pooling Layer를 한번 씩 넣어 주는데 Pooling은 Sampling, Resizing과 같은 말이다. Pooling을 통해 Resolution을 작게 만들면서 선명했던 이미지의 형체를 점점 뭉뚱그리면 이미지의 Object 들을 더 쉽게 그룹지을 수 있다.
 Pooling 기법은 여러가지가 존재하며, 대표적인 기법은 Max Pooling이다. 여러개의 값 중에서 가장 큰 값들로 구성하는 기법이다. 예를 들어, 9x9 행렬은 9개의 3x3 행렬로 쪼갤 수 있다. 3x3 행렬 각각의 element들 중 가장 큰 값을 대푯값으로 내놓는 것이다. 그렇게되면 Pooling을 거친 9x9 행렬은 하나의 3x3 행렬이 된다. 9x9 행렬이 Pooling을 거치면 항상 3x3이 되는 것은 아니고 여기서도 Stride를 설정하여 출력행렬의 크기를 정할 수 있다. Pooling은 그 외에도 최솟값이나 표준편차 등을 사용하는 기법이 존재한다. 핵심은 어떤 한 값을 대푯값으로 정하는 것이다.

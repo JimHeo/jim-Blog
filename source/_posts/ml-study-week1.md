@@ -12,9 +12,9 @@ mathjax: true
 
 > 해당 내용은 Andrew Ng의 Deeplearning ai 강의 C1W2까지에 기반을 두고 있습니다.
 
-### Introduction
+## Introduction
 
-#### 머신러닝이란 무엇인가?
+### 머신러닝이란 무엇인가?
 
 어떤 알고리즘을 혹은 시스템을 구축할 때 가장 추상적으로 생각할 수 있는 그림은 다음과 같다.
 
@@ -37,7 +37,7 @@ Ref: <https://arbs.nzcer.org.nz/algebraic-patterns-and-relationships-different-t
 
 </br>
 
-#### House Price Prediction
+### House Price Prediction
 
 Data Mining은 주어진 Dataset으로 현재 데이터들의 상관관계를 분석하는 것이다.
 여기서 더 나아간 것이 Machine Learning이며, 머신러닝은 분석된 상관관계를 토대로 앞으로 입력될 데이터에 대한 출력을 예측하는 것이다.
@@ -58,7 +58,7 @@ Ref: [deeplearning.ai Andrew Ng](https://www.youtube.com/watch?v=n1l-9lIMW7E&ind
 
 </br>
 
-### Types of Machine Learning
+## Types of Machine Learning
 
 머신러닝은 구조적으로 크게 3가지 방식이 있다.
 
@@ -68,24 +68,24 @@ Ref: [deeplearning.ai Andrew Ng](https://www.youtube.com/watch?v=n1l-9lIMW7E&ind
 
 Ref: <https://www.datasciencecentral.com/profiles/blogs/types-of-machine-learning-algorithms-in-one-picture>
 
-#### Supervised Learning (지도 학습)
+### Supervised Learning (지도 학습)
 
 지도 학습은 입력과 정답인 출력 레이블 한 쌍을 가지고 학습시키는 방법이다.
 지도 학습은 다시 Classification과 Regression으로 분류된다.
 
-#### Unsupervised Learning (비지도 학습)
+### Unsupervised Learning (비지도 학습)
 
 비지도 학습은 입력 레이블만을 가지고 학습시키는 방법이다.
 지도 학습의 경우에는 정답이 존재하기 때문에 학습 결과와 정답과의 오차를 계산할 수 있으나 비지도 학습은 그렇지 않다.
 그렇기 때문에 비지도 학습은 입력 데이터들의 Cluster를 찾아 학습한다.
 
-#### Reinforcement Learning (강화 학습)
+### Reinforcement Learning (강화 학습)
 
 강화 학습은 학습 데이터가 주어지지 않는다. 대신에 학습에 대한 보상(Reward)가 주어지며, 미래에 얻을 보상값들의 평균을 마르코프 의사 결정 과정을 통해 최대로 하는 함수를 찾는 것을 강화 학습이라 한다.
 
 </br>
 
-### Binary Classification
+## Binary Classification
 
 Classification과 Regression의 가장 큰 차이점은 Classification은 좌표상에서 Discrete하게 표현된다는 것이며, Regression은 Continuous하게 표현된다는 것이다. 
 즉, Classification은 Cluster를 나누는 기준 선을 찾는 방법이며, Regression은 데이터들이 수렴하게 되는 선을 찾는 것이다.
@@ -111,14 +111,14 @@ Ref: <https://towardsdatascience.com/activation-functions-neural-networks-1cbd9f
 
 $\hat{y}=\sigma(z)$이라 하면 $\hat{y}$는 $y$가 $1$인 경우에 대한 확률이며 ($\hat{y}=P(y=1 \mid x)$), 결론적으로 기계는 $\hat{y}$가 $1$에 근접할 수록 고양이라고 판단하는 것이다.
 
-### Back Propagation
+## Back Propagation
 
 앞의 과정까지가 Forward Propagation으로 진행되는 방식이다.
 그러나 기계가 도출한 답과 실제 정답레이블과의 오차가 클 경우가 많다.
 그렇기 때문에 우리는 Forward하게 도출한 답을 토대로 다시 가중치를 수정하면서 오차율을 줄여야 할 필요가 있다.
 이를 역전파(Back Propagation)라 한다.
 
-#### Logistic Regression Cost Function
+### Logistic Regression Cost Function
 
 역전파를 하기 위해 도출된 답과 실제의 답에 대한 오차율을 구해야 한다.
 하나에 학습에 대한 오차율 계산 함수를 Loss Function이라 한다.
@@ -153,7 +153,7 @@ Cost Function은 각 학습 셋에 대한 Loss Function들의 평균이다. 즉,
 
 $$ J(w, b) = -\frac{1}{m}\sum_{i = 1}^m (y_{(i)} \log\hat{y_{(i)}} + (1 - y_{(i)}) \log(1 - \hat{y_{(i)}}))$$
 
-#### Gradient Descent Algorithm
+### Gradient Descent Algorithm
 
 Gradient Descent는 Cost Function을 최소화하기 위한 가중치를 찾는 알고리즘이다.
 이 공식에는 편미분을 이용한다.
