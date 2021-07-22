@@ -106,6 +106,8 @@ GIL은 **단 하나의 Lock**만을 사용하기 때문에 간단하게 만들 �
 
 우선, Real Python에 포스팅된 [What Is the Python Global Interpreter Lock (GIL)?](https://realpython.com/python-gil/)에서 싱글 쓰레드와 멀티 쓰레드의 성능을 비교하기 위한 코드 일부를 발췌해서 실행해보았다.
 
+> Single-threading 성능
+
 ```python
 import time
 
@@ -124,6 +126,10 @@ print('Time taken in seconds -', end - start)
 # Single Threading
 # Time taken in seconds - 2.1882541179656982
 ```
+
+</br>
+
+> Multi-threading 성능
 
 ```python
 import time
@@ -150,6 +156,8 @@ print('Time taken in seconds -', end - start)
 # Multi Threading
 # Time taken in seconds - 2.1965391635894775
 ```
+
+</br>
 
 결과에서 볼 수 있듯이 GIL로 인해 대부분의 멀티 쓰레딩은 싱글 쓰레딩과 성능의 차이가 없으며, 오히려 쓰레드의 `Context-Switching`으로 인해 Overhead가 더 커져 느리게 동작하는 경우도 발생한다. 그렇기 때문에 파이썬에서 멀티 쓰레딩은 잘 사용하지 않으며 동시성 프로그래밍을 해야 할 경우에는 가급적 멀티 프로세싱으로 대체해서 사용한다. **그러니까 사실은 가급적이면 그냥 싱글 쓰레드로 사용하라는 말이다.** 그렇다면, 왜 파이썬 개발자들은 싱글 쓰레드만도 못한 성능의 이런 병목(Bottleneck)을 굳이 만들었을까? 그냥 멀티 쓰레드 구현 자체를 안해도 되지 않았을까?
 
