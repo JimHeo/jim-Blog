@@ -14,6 +14,9 @@ categories:
     - Deep Learning
 author: Jim
 ---
+
+> ***Migration to [Meta Sheet](https://jiminthebox.notion.site/Meta-Sheet-0482e3e50a144710b25331689d187e16/)***
+
 * * *
 
 ### U-Net: Convolutional Networks for Biomedical Image Segmentation

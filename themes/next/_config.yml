@@ -115,7 +115,8 @@ menu:
   Categories: /categories/ || fas fa-terminal
   Tags: /tags/ || fab fa-slack-hash
   About: /about/ || fas fa-dna
-  Lubycon: https://lubycon.io || icon-lubycon-symbol-dark
+  Meta Sheet: https://jiminthebox.notion.site/Meta-Sheet-0482e3e50a144710b25331689d187e16/ || fa fa-asterisk
+  Lubycon: https://lubycon.io/ || icon-lubycon-symbol-dark
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
@@ -173,6 +174,7 @@ site_state: true
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
   EMail: mailto:gjwlals111@gmail.com || fa fa-paper-plane
+  Resume: https://jiminthebox.notion.site/Jim-816bcbb41e894a3ea7b03d0679b040d2/ || fa fa-portrait
   GitHub: https://github.com/JimHeo || fab fa-github-alt
   LinkedIn: https://www.linkedin.com/in/jiminthebox0218 || fab fa-linkedin
   #Weibo: https://weibo.com/yourname || fab fa-weibo
