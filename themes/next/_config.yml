@@ -434,17 +434,18 @@ font:
   headings:
     external: true
     family: Black Han Sans
-    size:
+    size: 1.45
 
   # Font settings for posts (.post-body).
   posts:
     external: true
     family: Nanum Gothic
+    font:
 
   # Font settings for <code> and code blocks.
   codes:
     external: true
-    family: DM Mono
+    family: Nanum Gothic Coding
 
 
 # ---------------------------------------------------------------

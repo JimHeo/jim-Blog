@@ -30,12 +30,13 @@ h1, h2, h3, h4, h5, h6 {
 
 for $headline in (1 .. 6) {
   h{$headline} {
-    font-size: $font-size-headings-base - $font-size-headings-step * $headline;
+    font-size: $font-size-headings-base - $font-size-headings-step * ($headline - 1);
   }
 }
 
 p {
   margin: 0 0 20px 0;
+  font-size: $font-size-small;
 }
 
 a, span.exturl {
@@ -52,6 +53,10 @@ a, span.exturl {
 
   // For spanned external links.
   cursor: pointer;
+}
+
+sup {
+  background: #ffbb99;
 }
 
 iframe, img, video {
