@@ -19,16 +19,16 @@ author: Jim
 
 * * *
 
-# U-Net: Convolutional Networks for Biomedical Image Segmentation
+## U-Net: Convolutional Networks for Biomedical Image Segmentation
 
 MICCAI 2015
 * * *
 
-## Paper
+### Paper
 
 - <https://arxiv.org/pdf/1505.04597.pdf>
 
-## Source Code Repository
+### Source Code Repository
 
 - Official Model: <https://lmb.informatik.uni-freiburg.de/resources/opensource/unet/>
   - Framework: Caffe
@@ -43,7 +43,7 @@ MICCAI 2015
 
 <!--more-->
 
-## Train Model Code, Test Model Code
+### Train Model Code, Test Model Code
 
 - Train Model Code
   - Reproduce Model(Tensorflow) Supports API
@@ -60,17 +60,17 @@ MICCAI 2015
 
 - <https://github.com/zhixuhao/unet/blob/master/dataPrepare.ipynb>
 
-## Pre-Trained Model
+### Pre-Trained Model
 
 - Unsupported
 
-## Prediction Examples
+### Prediction Examples
 
 ![UNET](/images/segmentation-neuralnet-listup/unet_ex.png)
 
 Ref: <https://arxiv.org/pdf/1505.04597.pdf>
 
-## Citation
+### Citation
 
 ```
 @article{akeret2017radio,
@@ -89,16 +89,16 @@ Ref: <https://arxiv.org/pdf/1505.04597.pdf>
 
 * * *
 
-# RefineNet: Multi-Path Refinement Networks for High-Resolution Semantic Segmentation
+## RefineNet: Multi-Path Refinement Networks for High-Resolution Semantic Segmentation
 
 CVPR 2017
 * * *
 
-## Paper
+### Paper
 
 - <https://arxiv.org/pdf/1611.06612.pdf>
 
-## Source Code Repository
+### Source Code Repository
 
 - Official Model: <https://github.com/guosheng/refinenet>
   - Framework: MATLAB
@@ -110,17 +110,17 @@ CVPR 2017
 - Reproduce Model: <https://github.com/eragonruan/refinenet-image-segmentation>
   - Framework: Tensorflow
 
-## Train Model Code, Test Model Code
+### Train Model Code, Test Model Code
 
 - Train Model Code: Supported
 - Test Model Code: Supported
 
-## Pre-Trained Model
+### Pre-Trained Model
 
 - Supported
   - <https://github.com/guosheng/refinenet/blob/master/libs/matconvnet/doc/site/docs/pretrained.md>
 
-## Prediction Examples
+### Prediction Examples
 
 ![REFINENET](/images/segmentation-neuralnet-listup/refinenet_ex.png)
 
@@ -132,7 +132,7 @@ Ref: <https://arxiv.org/pdf/1611.06612.pdf>
 
 Ref: <https://github.com/guosheng/refinenet>
 
-## Citation
+### Citation
 
 ```
 @inproceedings{Lin:2017:RefineNet,
@@ -150,16 +150,16 @@ Ref: <https://github.com/guosheng/refinenet>
 
 * * *
 
-# PSPNet: Pyramid Scene Parsing Network
+## PSPNet: Pyramid Scene Parsing Network
 
 CVPR 2017, The Winner in 2016 ILSVRC Scene Parsing Challenge
 * * *
 
-## Paper
+### Paper
 
 - <https://arxiv.org/pdf/1612.01105.pdf>
 
-## Source Code Repository
+### Source Code Repository
 
 - Official Model: <https://github.com/hszhao/PSPNet>
   - Framework: Caffe
@@ -168,14 +168,14 @@ CVPR 2017, The Winner in 2016 ILSVRC Scene Parsing Challenge
 - Reproduce Model: <https://github.com/hellochick/PSPNet-tensorflow>
   - Framework: Tensorflow
 
-## Train Model Code, Test Model Code
+### Train Model Code, Test Model Code
 
 - Train Model Code: Supported in Reproduce Model
   - <https://github.com/Vladkryvoruchko/PSPNet-Keras-tensorflow>
 - Test Model Code: Supported in Reproduce Model
   - <https://github.com/Vladkryvoruchko/PSPNet-Keras-tensorflow>
 
-## Pre-Trained Model
+### Pre-Trained Model
 
 - Supported
   - Offical Model
@@ -184,7 +184,7 @@ CVPR 2017, The Winner in 2016 ILSVRC Scene Parsing Challenge
   - Reproduce Model
     - <https://github.com/Vladkryvoruchko/PSPNet-Keras-tensorflow>
 
-## Prediction Examples
+### Prediction Examples
 
 <center>
 <img src="https://hszhao.github.io/projects/pspnet/figures/voc2012_visual.png">
@@ -192,7 +192,7 @@ CVPR 2017, The Winner in 2016 ILSVRC Scene Parsing Challenge
 
 Ref: <https://hszhao.github.io/projects/pspnet/>
 
-## Citation
+### Citation
 
 ```
 @inproceedings{zhao2017pspnet,
@@ -212,16 +212,16 @@ Ref: <https://hszhao.github.io/projects/pspnet/>
 
 * * *
 
-# Large Kernel Matters: Improve Semantic Segmentation by Global Convolutional Network
+## Large Kernel Matters: Improve Semantic Segmentation by Global Convolutional Network
 
 CVPR 2017
 * * *
 
-## Paper
+### Paper
 
 - <https://arxiv.org/pdf/1612.01105.pdf>
 
-## Source Code Repository
+### Source Code Repository
 
 - Official Model: None
 
@@ -229,16 +229,16 @@ CVPR 2017
 
 - <http://research.sualab.com/practice/2018/11/23/image-segmentation-deep-learning.html>
 
-## Train Model Code, Test Model Code
+### Train Model Code, Test Model Code
 
 - Train Model Code: Unsupported
 - Test Model Code: Unsupported
 
-## Pre-Trained Model
+### Pre-Trained Model
 
 - Unsupported
 
-## Prediction Examples
+### Prediction Examples
 
 ![GCN](/images/segmentation-neuralnet-listup/GCN_ex.png)
 
@@ -249,31 +249,31 @@ Ref: <https://arxiv.org/pdf/1703.02719.pdf>
 
 * * *
   
-# DeepLab v3(+): Atrous SeparableConvolution for Semantic Image Segmentation
+## DeepLab v3(+): Atrous SeparableConvolution for Semantic Image Segmentation
 
 ECCV 2018
 * * *
 
-## Paper
+### Paper
 
 - DeepLab v3: <https://arxiv.org/pdf/1706.05587.pdf>
 - DeepLab v3+: <https://arxiv.org/pdf/1802.02611.pdf>
 
-## Source Code Repository
+### Source Code Repository
 
 - Official Model: <https://github.com/tensorflow/models/tree/master/research/deeplab>
   - Framework: Tensorflow
 
-## Train Model Code, Test Model Code
+### Train Model Code, Test Model Code
 
 - Train Model Code: Supported
 - Test Model Code: Supported
 
-## Pre-Trained Model
+### Pre-Trained Model
 
 - Supported
 
-## Prediction Examples
+### Prediction Examples
 
 <center>
 <img src="https://raw.githubusercontent.com/tensorflow/models/master/research/deeplab/g3doc/img/vis1.png">
@@ -281,7 +281,7 @@ ECCV 2018
 
 Ref: <https://github.com/tensorflow/models/tree/master/research/deeplab>
 
-## Citation
+### Citation
 
 ```
 @inproceedings{deeplabv3plus2018,
@@ -299,30 +299,30 @@ Ref: <https://github.com/tensorflow/models/tree/master/research/deeplab>
 
 * * *
 
-# Inplace ABN: In-Place Activated BatchNorm for Memory-Optimized Training of DNNs
+## Inplace ABN: In-Place Activated BatchNorm for Memory-Optimized Training of DNNs
 
 CVPR 2018
 * * *
 
-## Paper
+### Paper
 
 - <https://arxiv.org/pdf/1712.02616v3.pdf>
 
-## Source Code Repository
+### Source Code Repository
 
 - Official Model: <https://github.com/mapillary/inplace_abn>
   - Framework: PyTorch
 
-## Train Model Code, Test Model Code
+### Train Model Code, Test Model Code
 
 - Train Model Code: Supported
 - Test Model Code: Supported
 
-## Pre-Trained Model
+### Pre-Trained Model
 
 - Supported
 
-## Citation
+### Citation
 
 ```
 @inproceedings{rotabulo2017place,
@@ -338,30 +338,30 @@ CVPR 2018
 
 * * *
 
-# TernausNetV2: Fully Convolutional Network for Instance Segmentation
+## TernausNetV2: Fully Convolutional Network for Instance Segmentation
 
 2nd place in CVPR 2018 DeepGlobe Building Extraction Challenge
 * * *
 
-## Paper
+### Paper
 
 - <http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w4/Iglovikov_TernausNetV2_Fully_Convolutional_CVPR_2018_paper.pdf>
 
-## Source Code Repository
+### Source Code Repository
 
 - Official Model: <https://github.com/ternaus/TernausNetV2>
   - Framework: PyTorch
 
-## Train Model Code, Test Model Code
+### Train Model Code, Test Model Code
 
 - Train Model Code: Unsupported
 - Test Model Code: Unsupported
 
-## Pre-Trained Model
+### Pre-Trained Model
 
 - Unsupported
 
-## Prediction Example
+### Prediction Example
 
 <center>
 <img src="https://camo.githubusercontent.com/c3c8b42313d139c6d562880cb4725f2b453e4ec7/68747470733a2f2f686162726173746f726167652e6f72672f776562742f6b6f2f62322f74772f6b6f62327477686a7a6a666e61756978376c6a74656430376761382e706e67">
@@ -369,7 +369,7 @@ CVPR 2018
 
 Ref: <https://github.com/ternaus/TernausNetV2>
 
-## Citation
+### Citation
 
 ```
 @InProceedings{Iglovikov_2018_CVPR_Workshops,
@@ -387,30 +387,30 @@ Ref: <https://github.com/ternaus/TernausNetV2>
 
 * * *
 
-# Automatic Instrument Segmentation in Robot-Assisted Surgery Using Deep Learning
+## Automatic Instrument Segmentation in Robot-Assisted Surgery Using Deep Learning
 
 ICMLA 2018, Wining solution and its improvement for MICCAI 2017 Robotic Instrument Segmentation Sub-Challenge
 * * *
 
-## Paper
+### Paper
 
 - <https://arxiv.org/pdf/1803.01207.pdf>
 
-## Source Code Repository
+### Source Code Repository
 
 - Official Model: <https://github.com/ternaus/TernausNetV2>
   - Framework: PyTorch
 
-## Train Model Code, Test Model Code
+### Train Model Code, Test Model Code
 
 - Train Model Code: Supported
 - Test Model Code: Supported
 
-## Pre-Trained Model
+### Pre-Trained Model
 
 - Supported in <https://drive.google.com/drive/folders/13e0C4fAtJemjewYqxPtQHO6Xggk7lsKe>
 
-## Prediction Example
+### Prediction Example
 
 <center>
 <img src="https://raw.githubusercontent.com/ternaus/robot-surgery-segmentation/master/images/grid-1-41.png">
@@ -418,7 +418,7 @@ ICMLA 2018, Wining solution and its improvement for MICCAI 2017 Robotic Instrume
 
 Ref: <https://github.com/ternaus/robot-surgery-segmentation>
 
-## Citation
+### Citation
 
 ```
 @article{shvets2018automatic,
