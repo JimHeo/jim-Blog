@@ -1,8 +1,8 @@
 ---
-title: Convolution Neural Network의 개념
+title: Convolutional Neural Network의 개념
 date: 2018-10-10 17:55:40
 tags:
-    - Convolution Neural Network
+    - Convolutional Neural Network
     - Convolution
     - Image Processing
     - Computer Vision
@@ -23,7 +23,7 @@ Grayscale이 아닌 경우에는 채널값을 추가적으로 고려해야 한�
 
 그렇기 때문에, 비정형 데이터는 각각의 특성을 고려한 발전된 Neural Net이 필요하다. 비정형 데이터를 효과적으로 학습하기 위해 등장한 것이 CNN, RNN이다. CNN은 이미지에 특화된 Neural Net이며, RNN은 음성이나 자연어와 같은 Sequential한 모델에 특화된 Neural Net이다.
 
-## Convolution Neural Network의 등장
+## Convolutional Neural Network의 등장
 
 <center>
 <img src="https://t1.daumcdn.net/cfile/tistory/276FC94357AB43B00D">
@@ -39,9 +39,9 @@ CNN의 위의 연구에서 부터 시작한다.
 <img src="https://t1.daumcdn.net/cfile/tistory/2517944D57AB45F018">
 </center>
 
-위 그림은 CNN의 일반적인 구조를 시각화한 것이다. CNN은 여러층의 Convolution Layer, Activation Fuction (ReLU 혹은 그와 유사한)이 먼저 구성되며, Pooling Layer를 통해 이미지를 Sampling하게 된다. 이 층들이 몇 번 반복된 후에는 Fully-Connected Layer로 이동 하는데 Fully-Connected Layer는 우리가 앞서 보았던 MLP와 동일하다. Fully-Connected에서는 최종적으로 확률이 결과물로 나와야 하므로 Softmax를 사용한다.
+위 그림은 CNN의 일반적인 구조를 시각화한 것이다. CNN은 여러층의 Convolutional Layer, Activation Fuction (ReLU 혹은 그와 유사한)이 먼저 구성되며, Pooling Layer를 통해 이미지를 Sampling하게 된다. 이 층들이 몇 번 반복된 후에는 Fully-Connected Layer로 이동 하는데 Fully-Connected Layer는 우리가 앞서 보았던 MLP와 동일하다. Fully-Connected에서는 최종적으로 확률이 결과물로 나와야 하므로 Softmax를 사용한다.
 
-Convolution Layer는 영상처리분야에서 필수 요소로 작용하는 Convolution을 기반으로 한 Layer이다. Convolution은 신호처리에서 먼저 등장한 개념이지만, 영상처리에서 이산적인 Convolution 연산을 통해 우리가 카메라 어플 등에서 흔히 보는 Filtering 부터 Edge Detection 등의 작업을 수행할 수 있다.
+Convolutional Layer는 영상처리분야에서 필수 요소로 작용하는 Convolution을 기반으로 한 Layer이다. Convolution은 신호처리에서 먼저 등장한 개념이지만, 영상처리에서 이산적인 Convolution 연산을 통해 우리가 카메라 어플 등에서 흔히 보는 Filtering 부터 Edge Detection 등의 작업을 수행할 수 있다.
 
 ## 이미지의 Convolution
 
@@ -53,7 +53,7 @@ Convolution Layer는 영상처리분야에서 필수 요소로 작용하는 Conv
 
 위 그림은 Convolution의 가장 적절한 시각화 예시 중 하나이다. 그림을 보면, Source Pixel과 주변의 픽셀들을 특정한 행렬과 Element-Wise 곱을 한 후 모두 더해 출력을 낸다.
 
-Source와 곱을 하는 특정 행렬을 Filter(혹은 Convolution Matrix, Kernel, Window)라 부른다. 이 Filter를 Source의 Pixel들에 순차적으로 Sweeping 하면서 계산하여 하나의 Output Matrix를 만드는 것이다. Filter의 크기는 사용자가 지정하며, 일반적으로 3x3 혹은 5x5 Filter를 사용한다.
+Source와 곱을 하는 특정 행렬을 Filter(혹은 Convolutional Matrix, Kernel, Window)라 부른다. 이 Filter를 Source의 Pixel들에 순차적으로 Sweeping 하면서 계산하여 하나의 Output Matrix를 만드는 것이다. Filter의 크기는 사용자가 지정하며, 일반적으로 3x3 혹은 5x5 Filter를 사용한다.
 
 위를 수식으로 일반화하면 다음과 같다.
 
@@ -63,13 +63,13 @@ $$h[i, j] = f[i, j] * g[i, j] = \sum_{k=1}^n \sum_{l=1}^m f[k, l] g[i - k, j - l
 
 다시 위 그림을 보자. 위 그림은 한번의 Convolution 연산이 끝난 상태이다. 그렇다면, 그 다음의 Convolution 연산을 위해 Filter의 이동이 필요하다. 여기서 Filter를 몇 칸 이동할 것인가를 Stride라고 한다. Stride를 몇으로 설정하는가에 따라 출력데이터의 크기가 달라지는데 출력크기는 입력크기가 NxN이고 필터크기가 FxF 일 때, (N - F) / Stride + 1이 된다.
 
-또한, 그림에서 Source는 7x7의 Matrix이나 출력물은 5x5가 나올 것으로 보인다. 이는 Border 부분의 Pixel은 계산이 안되기 때문이다. 이렇게 되면, Convolution Layer를 한번 거칠 때마다 이미지가 Down Sampling 되어 Layer가 깊어질 수록 데이터가 소실되는 문제가 발생한다.
+또한, 그림에서 Source는 7x7의 Matrix이나 출력물은 5x5가 나올 것으로 보인다. 이는 Border 부분의 Pixel은 계산이 안되기 때문이다. 이렇게 되면, Convolutional Layer를 한번 거칠 때마다 이미지가 Down Sampling 되어 Layer가 깊어질 수록 데이터가 소실되는 문제가 발생한다.
 
 그래서 Border에 Padding을 생성하여 Down Sampling을 방지한다. Padding의 값은 주로 0으로 설정한다.
 
 이렇게 Convolution을 거쳐 나온 결과물을 Channel이라 한다. 즉, 1개의 필터 당 1개의 채널이 생성되며, 최종 결과물은 각각 다른 가중치의 여러개의 필터로 여러 채널을 생성하여 결과물을 두껍게 만든다. 이렇게 최종적으로 생성된 것을 Activation Map이라 부른다.
 
-이 과정까지가 Convolution Layer 층에서 하는 역할이며, 그 후 ReLU 등의 Activation Fuction을 거친다. 여러개의 Convolution Layer를 구성하여 이 과정들을 반복한다.
+이 과정까지가 Convolutional Layer 층에서 하는 역할이며, 그 후 ReLU 등의 Activation Fuction을 거친다. 여러개의 Convolutional Layer를 구성하여 이 과정들을 반복한다.
 
 ## Pooling Layer
 
