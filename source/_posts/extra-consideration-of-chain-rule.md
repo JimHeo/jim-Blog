@@ -6,8 +6,9 @@ tags:
     - Chain Rule
     - Derivative
     - Backpropagation
-categories:
     - Deep Learning
+categories:
+    - Machine Learning
 author: Jim
 mathjax: true
 ---

@@ -10,8 +10,9 @@ tags:
     - Instance Segmentation
     - Image Processing
     - Computer Vision
-categories:
     - Deep Learning
+categories:
+    - Machine Learning
 author: Jim
 ---
 

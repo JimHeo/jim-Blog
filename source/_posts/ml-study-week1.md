@@ -4,8 +4,9 @@ date: 2018-10-10 14:46:13
 tags:
     - Logistic Regression
     - Gradient Descent
-categories:
     - Deep Learning
+categories:
+    - Machine Learning
 author: Jim 
 mathjax: true
 ---
