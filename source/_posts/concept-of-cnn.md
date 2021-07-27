@@ -2,7 +2,7 @@
 title: Convolutional Neural Network의 개념
 date: 2018-10-10 17:55:40
 tags:
-    - CNN
+    - Convolutional Neural Network
     - Image Processing
     - Computer Vision
     - Deep Learning
