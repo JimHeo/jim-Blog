@@ -62,7 +62,7 @@ mathjax: true
 > 주어진 `데이터의 특성과 패턴을 학습`하고 이를 바탕으로 `새로운 데이터`에 대한 결과를 `예측`, 데이터 마이닝(Data Mining)이 데이터간의 상관관계나 속성을 찾는 것이 주 목적인 반면, 머신러닝은 상관관계를 통해 새로운 데이터의 결과를 예측하는 것에 목적을 두고 있음
 > 
 > **딥러닝(DL, Deep Learning)**
-> 머신러닝의 한 분야이며, 인공 신경망(ANN, Artificial Neural Network)의 층을 깊게 하여 설계한 `딥 뉴럴 네트워크(Deep Neural Network)`로 학습하는 알고리즘의 집합
+> 머신러닝의 한 분야이며, 인공신경망(ANN, Artificial Neural Network)의 층을 깊게 하여 설계한 `딥 뉴럴 네트워크(Deep Neural Network)`로 학습하는 알고리즘의 집합
 
 ### 인공지능..? 🙄
 
