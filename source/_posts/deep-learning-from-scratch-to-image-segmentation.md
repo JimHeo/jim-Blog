@@ -108,7 +108,7 @@ Symbolic AI은 전문가들의 Knowledge base로 규칙을 만들어 행동 패�
 <br>
 <center>
 <img src="https://i.redd.it/8lfied3ohyp11.jpg" width="50%">
-<font size="2" color="gray"> 학습 중... <font>
+<font size="2" color="gray"> 학습 중... origin by <a href="https://www.instagram.com/oursky.hk/" target="_blank">@oursky.hk</a><font>
 </center>
 <br>
 
