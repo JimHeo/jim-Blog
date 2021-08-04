@@ -103,7 +103,7 @@ Symbolic AI은 전문가들의 Knowledge base로 규칙을 만들어 행동 패�
 > `정답이 없는 입력 값으로만 구축된 학습 데이터`를 이용하여 학습하고, 입력에 대한 정답을 찾는 것이 아닌 입력 값의 유사도(Similarity), 패턴(Pattern), 특성(Feature) 등을 학습을 통해 발견하는 방법을 말함, Task에 따라 다시 `군집화(Clustering)`나 `차원 축소(Dimensionality Reduction)` 등으로 구분
 >
 > **강화학습(Reinforcement Learning)**
-> 소프트웨어 에이전트(Agent)가 환경(Environment) 내에서 보상(Reward)이 최대화되는 방향으로 행동(Action)을 수행하도록 학습 하는 기법
+> 소프트웨어 에이전트(Agent)가 환경(Environment) 내에서 `보상(Reward)이 최대화`되는 방향으로 행동(Action)을 수행하도록 학습 하는 기법
 
 <br>
 <center>
