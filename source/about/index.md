@@ -6,12 +6,12 @@ type: about
 
 <img src="/images/about/ica.jpg" width="360" height="640">
 
-#### Jim / Demian
+## Jim / Demian
 
 안녕하세요. 드문드문 **[JimintheBox](https://jimheo.github.io/)** 블로그를 운영하고 있는 **Jim**이라고 합니다.
 제 블로그를 찾아 주신 분들, 그리고 그 중에서 About 페이지를 찾아서 들어와 주신 분들께 정말로 감사드립니다. :bow:
 
-석사 학위를 따기 위해 대학원생의 신분으로 있으며, 영상처리 및 컴퓨터비전에 대한 딥러닝을 주로 공부하고 있습니다.
+~~석사 학위를 따기 위해 대학원생의 신분~~으로 있으며, 영상처리 및 컴퓨터비전에 대한 딥러닝을 주로 공부하고 있습니다.
 또한, 프로젝트 팀 **[Lubycon](https://lubycon.io/)**의 멤버로 있습니다.
 (Lubycon에서 [멘토링 프로젝트](https://lubycon.io/magazines/2020/06/09/1st-demo-day/)나 [칫챗](https://lubycon.io/magazines/2019/11/18/1st-chit-chat-retrospective/) 등을 종종 기획하고 있으니 많은 관심 부탁드립니다.)
 블로깅을 자주 하고 있지는 않지만, 항상 업로드를 하고자 하는 의지는 가지고 있습니다. :sweat_smile:
