@@ -10,8 +10,6 @@ tags:
 categories:
     - Essay
 author: Demian
-reward_settings:
-  enable: true
 ---
 바둑에 대해서 잘은 모르지만 그로부터 유래된 단어는 간혹 일상에서 사용하곤 한다.
 바둑 용어 중에 `복기`라는 말이 있다.

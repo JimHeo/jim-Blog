@@ -9,8 +9,6 @@ tags:
 categories:
     - Essay
 author: Demian
-reward_settings:
-  enable: true
 ---
 **2020년 여름의 어느 날 저녁.**
 
