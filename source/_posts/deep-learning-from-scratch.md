@@ -1,12 +1,9 @@
 ---
-title: 딥러닝, 기초에서 영상 분할까지・・・・・・(1)
+title: 딥러닝, 처음 접하는 사람들을 위한 기초
 date: 2021-07-27 16:33:59
 tags:
     - Deep Learning
     - Convolutional Neural Network
-    - Image Processing
-    - Computer Vision
-    - Semantic Segmentation
 categories:
     - Machine Learning
 author: Jim
@@ -25,7 +22,7 @@ mathjax: true
 
 <br>
 <center>
-<img src="/images/deep-learning-from-scratch-to-image-segmentation/simpson_graduate_student.jpeg" width="50%">
+<img src="/images/deep-learning-from-scratch/simpson_graduate_student.jpeg" width="50%">
 <font size="2" color="gray"> 아..아앗...아니야...!!<font>
 </center>
 <br>
@@ -48,7 +45,7 @@ mathjax: true
 
 <br>
 <center>
-<img src="/images/deep-learning-from-scratch-to-image-segmentation/AI_ML_DL.jpg" width="50%">
+<img src="/images/deep-learning-from-scratch/AI_ML_DL.jpg" width="50%">
 <font size="2" color="gray"> 인공지능, 머신러닝 그리고 딥러닝 <font>
 </center>
 <br>
@@ -154,8 +151,6 @@ XOR 문제로 처음 퍼셉트론의 허점이 드러나게 되면서 Symbolic A
 그렇지만 간혹, 다시금 세번째 겨울이 오네마네 하는 소리가 들리곤 한다. 점차 현재의 신경망으로 닿을 수 있는 성능의 한계치에 수렴하는 느낌이 강하고, AGI 같은 범용인공지능을 만들려면 지금의 신경망으로는 턱없이 부족하기 때문이다. 또한, 딥러닝이 블랙박스로 지속되는 한 대중들에게 기술의 신뢰성을 얻어내기는 어려울 것이다.
 
 이러한 상황을 극복하고자 블랙박스를 화이트박스로 만들기 위한 `설명 가능한 인공지능(XAI, eXplainable AI)`에 대한 연구나 딥러닝에 Symbolic AI를 결합하려는 `Neuro-Symbolic AI`과 같은 시도가 계속해서 나오고 있다.*(물론, 둘다 한참 멀었다고 생각한다.)* 그래서 우리는 딥러닝이 발전을 해도 다른 머신러닝 기법이나 선형 대수(Linear Algebra) 컨벡스 최적화(Convex Optimization), 통계적 학습(Statistical Learning)과 같은 기반 지식을 계속해서 공부해야 하나보다..:pensive:
-
-> ***호흡을 조절하고자 딥러닝, 기초에서 영상 분할까지・・・・・・(2)에서 계속됩니다.***
 
 ------------------------------------------------------------
 <a name="IF-ELSE">[1]</a> 학습의 방법을 몰랐을 때, 내가 처음 생각한 인공지능의 방법론이다.
