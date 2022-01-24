@@ -7,7 +7,7 @@ tags:
     - Threading
     - Mutex
 categories:
-    - Programming
+    - Engineering
 author: Jim
 mathjax: true
 ---
