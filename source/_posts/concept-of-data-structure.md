@@ -5,7 +5,7 @@ tags:
     - Data Structure
     - OOP Programming
 categories:
-    - Engineering
+    - [프로그래밍, 자료구조]
 author: Jim
 ---
 

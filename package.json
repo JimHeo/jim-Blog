@@ -32,5 +32,9 @@
     "hexo-server": "^1.0.0",
     "hexo-word-counter": "0.0.1",
     "stylint": "^2.0.0"
+  },
+  "devDependencies": {
+    "stylus": "^0.56.0",
+    "stylus-native-loader": "^1.4.6"
   }
 }

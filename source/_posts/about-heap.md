@@ -7,7 +7,7 @@ tags:
     - Tree
     - C++
 categories:
-    - Engineering
+    - [프로그래밍, 자료구조]
 author: Jim
 mathjax: true
 ---

@@ -7,12 +7,11 @@ tags:
     - ICCV
     - ECCV
     - Semantic Segmentation
-    - Instance Segmentation
     - Image Processing
     - Computer Vision
     - Deep Learning
 categories:
-    - Machine Learning
+    - [머신러닝, 딥러닝]
 author: Jim
 ---
 

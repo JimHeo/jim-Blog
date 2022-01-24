@@ -6,7 +6,7 @@ tags:
     - COVID19
     - Values
 categories:
-    - Essay
+    - 에세이
 author: Jim
 ---
 **2020년 여름의 어느 날 저녁.**

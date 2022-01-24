@@ -7,7 +7,7 @@ tags:
     - Burnout
     - Overcome
 categories:
-    - Essay
+    - 에세이
 author: Jim
 ---
 바둑에 대해서 잘은 모르지만 그로부터 유래된 단어는 간혹 일상에서 사용하곤 한다.
