@@ -115,8 +115,8 @@ menu:
   Categories: /categories/ || fas fa-terminal
   Tags: /tags/ || fab fa-slack-hash
   About: /about/ || fas fa-dna
-  Meta Sheet: https://jiminthebox.notion.site/Meta-Sheet-0482e3e50a144710b25331689d187e16/ || fa fa-asterisk
-  Lubycon: https://lubycon.io/ || icon-lubycon-symbol-dark
+  # Meta Sheet: https://jiminthebox.notion.site/Meta-Sheet-0482e3e50a144710b25331689d187e16/ || fa fa-asterisk
+  # Lubycon: https://lubycon.io/ || icon-lubycon-symbol-dark
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
